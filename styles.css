@@ -2,7 +2,9 @@ label, address, h1, h2, h3, p, a {font-family: 'Segoe UI', Tahoma, Geneva, Verda
     font-weight: lighter;
     text-align: center;
     }
+
 h1 {font-weight: lighter;}
+
 a {text-decoration: none;
     color: black;
     display: block;
@@ -10,13 +12,17 @@ a {text-decoration: none;
     float: center;
     }
 
-.imgages{align-content: center;}
+.images{border-radius: 0 50px 0 50px; text-align: center; margin-left: auto; margin-right: auto; width: auto; display: block;}
+
+figcaption {font-size: xx-large; padding: 20px;}
+
 .title {float: left;
     margin: 12px;
     font-size: 2.5em;}
 .logo {float: left;
     position: relative;
     margin: 1em;}
+
 .navlinks {float: right;
     position: relative;
     margin: 30px;
@@ -26,5 +32,8 @@ address, label, input {
     align-tracks: center;
     text-align: center;}
 
+#UnityIcon{float: center; margin-top: 5%;}
+#AndroidIcon{float: right; margin-right: 15%;}
+#IJIcon{float: left; margin-left: 15%;}
 
 
